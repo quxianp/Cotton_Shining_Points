@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/Cotton.jpg</file>
+        <file>res/cotton_round.png</file>
+        <file>res/favicon.ico</file>
+    </qresource>
+</RCC>
