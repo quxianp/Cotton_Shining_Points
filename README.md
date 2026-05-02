@@ -21,3 +21,10 @@ Social Links: [Bilibili](https://space.bilibili.com/63115177 "正态分布曲线
 ---
 
 ![preview](https://github.com/user-attachments/assets/dafa01de-9e42-474a-9c75-b103532c7a40)
+
+---
+
+How to Use It? 👇👇👇
+
+https://github.com/user-attachments/assets/104bdf8f-59b0-464f-a1f9-22a7cc9fd451
+
