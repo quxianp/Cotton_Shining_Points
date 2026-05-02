@@ -20,6 +20,4 @@ Social Links: [Bilibili](https://space.bilibili.com/63115177 "正态分布曲线
 
 ---
 
-<img width="1003" height="981" alt="图片" src="https://github.com/user-attachments/assets/dafa01de-9e42-474a-9c75-b103532c7a40" />
-
 ![preview](https://github.com/user-attachments/assets/dafa01de-9e42-474a-9c75-b103532c7a40)
