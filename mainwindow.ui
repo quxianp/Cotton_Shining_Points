@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>796</width>
-    <height>703</height>
+    <width>792</width>
+    <height>699</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -38,7 +38,7 @@
        </property>
        <property name="font">
         <font>
-         <family>微软雅黑 Light</family>
+         <family>方正书宋_GBK</family>
          <pointsize>14</pointsize>
         </font>
        </property>
@@ -58,6 +58,11 @@
      </item>
      <item>
       <widget class="QPushButton" name="random">
+       <property name="font">
+        <font>
+         <family>fzletter</family>
+        </font>
+       </property>
        <property name="text">
         <string>Random</string>
        </property>
@@ -65,6 +70,11 @@
      </item>
      <item>
       <widget class="QPushButton" name="done">
+       <property name="font">
+        <font>
+         <family>fzletter</family>
+        </font>
+       </property>
        <property name="text">
         <string>Done!</string>
        </property>
@@ -78,7 +88,7 @@
       <x>30</x>
       <y>220</y>
       <width>731</width>
-      <height>80</height>
+      <height>87</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="Output">
@@ -86,8 +96,9 @@
       <widget class="QLabel" name="output_label">
        <property name="font">
         <font>
-         <family>微软雅黑 Light</family>
+         <family>Times New Roman</family>
          <pointsize>14</pointsize>
+         <bold>false</bold>
         </font>
        </property>
        <property name="text">
@@ -106,6 +117,11 @@
      </item>
      <item>
       <widget class="QPushButton" name="exit">
+       <property name="font">
+        <font>
+         <family>fzletter</family>
+        </font>
+       </property>
        <property name="text">
         <string>Exit</string>
        </property>
@@ -116,19 +132,22 @@
    <widget class="QWidget" name="horizontalLayoutWidget_3">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>50</x>
       <y>30</y>
-      <width>731</width>
-      <height>80</height>
+      <width>691</width>
+      <height>87</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QLabel" name="label">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
        <property name="font">
         <font>
-         <family>方正姚体</family>
-         <pointsize>40</pointsize>
+         <family>Didot</family>
+         <pointsize>30</pointsize>
          <bold>true</bold>
          <stylestrategy>PreferAntialias</stylestrategy>
         </font>
@@ -137,7 +156,7 @@
         <string>Cotton's SHiNiNG POiNTs</string>
        </property>
        <property name="alignment">
-        <set>Qt::AlignCenter</set>
+        <set>Qt::AlignmentFlag::AlignCenter</set>
        </property>
       </widget>
      </item>
@@ -170,7 +189,7 @@
     </property>
     <property name="font">
      <font>
-      <family>华文琥珀</family>
+      <family>方正书宋_GBK</family>
       <pointsize>20</pointsize>
      </font>
     </property>
@@ -178,21 +197,43 @@
      <string>Cotton の 闪光点</string>
     </property>
     <property name="alignment">
-     <set>Qt::AlignCenter</set>
+     <set>Qt::AlignmentFlag::AlignCenter</set>
     </property>
    </widget>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>796</width>
-     <height>20</height>
+     <width>792</width>
+     <height>24</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+    <addaction name="actionCotton_s_Bilibili_Space"/>
+    <addaction name="actionProducer"/>
+   </widget>
+   <addaction name="menuAbout"/>
   </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <action name="actionCotton_s_Bilibili_Space">
+   <property name="text">
+    <string>Open Source Address</string>
+   </property>
+  </action>
+  <action name="actionProducer">
+   <property name="text">
+    <string>Producer</string>
+   </property>
+  </action>
  </widget>
  <resources>
   <include location="image.qrc"/>

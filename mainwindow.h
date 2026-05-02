@@ -3,11 +3,14 @@
 
 #include <QMainWindow>
 
+
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
 }
 QT_END_NAMESPACE
+
 
 class MainWindow : public QMainWindow
 {
@@ -26,5 +29,10 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+
+private slots:
+    void onProducerTriggered();
+    void onOpenSourceTriggered();
+
 };
 #endif // MAINWINDOW_H

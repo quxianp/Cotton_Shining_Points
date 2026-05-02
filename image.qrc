@@ -3,5 +3,13 @@
         <file>res/Cotton.jpg</file>
         <file>res/cotton_round.png</file>
         <file>res/favicon.ico</file>
+        <file>res/start.png</file>
+        <file>res/font/Dengl.ttf</file>
+        <file>res/font/Didot Bold.ttf</file>
+        <file>res/font/Didot-Italic-2.ttf</file>
+        <file>res/font/FangZhengShuSong-GBK-1.ttf</file>
+        <file>res/font/fzletter-2.ttf</file>
+        <file>res/font/PangMenZhengDaoBiaoTiTiMianFeiBan-2.ttf</file>
+        <file>res/font/times.ttf</file>
     </qresource>
 </RCC>
